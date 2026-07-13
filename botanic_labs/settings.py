@@ -36,13 +36,15 @@ ALLOWED_HOSTS = [
     'botanic-labs-d446513705ac.herokuapp.com',
     'localhost',
     '.railway.app',
+    '.onrender.com',
 ]
 
 # Allows admin login
 CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://*.codeinstitute-ide.net",
-    'https://botaniclabs-production.up.railway.app'
+    'https://botaniclabs-production.up.railway.app',
+    "https://*.onrender.com",
 ]
 
 # Application definition
